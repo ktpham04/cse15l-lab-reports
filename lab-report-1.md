@@ -1,10 +1,11 @@
 # How to tutorial for Github
 ## Step 1: Install VScode
-* Go to [link](https://code.visualstudio.com/download)
+* Go to [VScode Downloader](https://code.visualstudio.com/download)
 * Then click on blue box "MAC" to download VScode
+* ![image](<img width="445" alt="Screen Shot 2023-04-07 at 14 30 44" src="https://user-images.githubusercontent.com/130005714/230681530-64e5ce10-2d70-4d6a-a090-9cc7ae787aa1.png">)
 * VScode should now be installed.
 ## Step 2: Find CSE15L Account
-* Go to [link](https://sdacs.ucsd.edu/~icc/index.php)
+* Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 * Input both your User and Student ID then click "Submit"
 * Then under "Additonal Accounts" you will find an account called "cs15l"
 * Click on that account and press on "Global Password Change Tool" to reset password.
