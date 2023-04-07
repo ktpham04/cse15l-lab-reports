@@ -2,7 +2,7 @@
 ## Step 1: Install VScode
 * Go to [VScode Downloader](https://code.visualstudio.com/download)
 * Then click on blue box "MAC" to download VScode
-* ![image]()
+* ![image](download.png)
 * VScode should now be installed.
 ## Step 2: Find CSE15L Account
 * Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
