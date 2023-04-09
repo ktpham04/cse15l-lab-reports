@@ -17,3 +17,7 @@
 * Type in "ssh" and your "csl5l" email
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
+* ![image](remote.png)
+* Your computer should now be connected
+## Step 4: Trying Some Commands
+
