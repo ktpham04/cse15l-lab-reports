@@ -18,7 +18,7 @@
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
 * This should pop up below
-* ![image](remote.png)
+* ![image](remote c.png)
 * Your computer should now be connected
 ## Step 4: Trying Some Commands
 * Go to [Part 5 - Run Some Commands](https://ucsd-cse15l-s23.github.io/week/week1/#week-1-lab-report)
