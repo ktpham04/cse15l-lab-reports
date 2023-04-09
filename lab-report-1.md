@@ -25,5 +25,7 @@
 * You should see a list commands to try
 * Now open up the terminal and type in these commands
 * If typed in correctly, your terminal should look like this
-* ![image](
+* ![image](commands.png)
+* Now you are all done
+* To exit out ther terminal press Ctrl + D
 
