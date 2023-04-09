@@ -13,3 +13,7 @@
 * Input your new password for your cs15l account. MAKE SURE YOU REMEMBER.
 * Now you should be all set to remotely connect.
 ## Step 3: Remote Connect
+* Open up VScode, then open the terminal
+* Type in "ssh" and your "csl5l" email
+* Press enter, and a yes/no question will show. Click yes
+* Type in your password
