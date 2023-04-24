@@ -25,9 +25,14 @@
 * ![image](remote.png)
 * Your computer should now be connected
 ## Step 4: Trying Some Commands
-* Go to [Part 5 - Run Some Commands](https://ucsd-cse15l-s23.github.io/week/week1/#week-1-lab-report)
-* You should see a list commands to try
-* Now open up the terminal and type in these commands
+* Time to try some commands
+* List of commands
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* Open up the terminal 
+* Type in these commands
 * If typed in correctly, your terminal should look like this
 * ![image](commands.png)
 * Now you are all done
