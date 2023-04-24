@@ -1,8 +1,8 @@
 # Lab Report 2 - Servers and Bugs
 ## Part 1 - Write a web server called StringServer
 * Code for StringServer
-*`import java.io.IOException;`
-*`import java.net.URI;`
+* `import java.io.IOException;`
+* `import java.net.URI;`
 
 class Handler implements URLHandler {
 
@@ -33,4 +33,9 @@ class Handler implements URLHandler {
             Server.start(port, new Handler());
         }
     }
-    
+* After the completion of your code, you now want to run it in the terminal
+* Open terminal on VScode with *Ctrl* + *~*  
+* In your terminal type in the folowing commands
+* `javac Server.java StringServer.java`
+* `java StringServer 4000`
+![image]
