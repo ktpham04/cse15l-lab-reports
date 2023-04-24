@@ -19,6 +19,7 @@
 ## Step 3: Remote Connect
 * Open up VScode, then open the terminal
 * Press Ctrl + ~ to open terminal
+* ![image](vscode.png)
 * Type in `ssh` and your "csl5l" email with "@ieng6.ucsd.edu"
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
