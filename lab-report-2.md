@@ -56,3 +56,5 @@ class Handler implements URLHandler {
 ![image](how.png)
 * The method `handleRequest` is called again and passes the first two if statements
 * With being said, the `\n` was called resulting in the return of "How are you" in a new line.
+* Notice how the values changes in link when adding "How are you"
+* You will see "%20" in between "How", "are", and "you" indicating the spaces
