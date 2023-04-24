@@ -21,7 +21,7 @@
 * Type in `ssh` and your "csl5l" email with "@ieng6.ucsd.edu"
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
-* ![image]
+* ![image](codes.png)
 * After this should pop up below
 * ![image](remote.png)
 * Your computer should now be connected
@@ -32,10 +32,14 @@
 * `cd`
 * `ls -lat`Shows the list of files/folders given
 * `ls -a`
-* Open up the terminal 
+* `ls/home/linux/ieng6/cs15lsp23/cs15lsp23abc`
+* `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+* `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+* * Open up the terminal 
 * Type in these commands
 * If typed in correctly, your terminal should look like this
 * ![image](commands.png)
+* You will notice that after using these last three commands there is an error
 * Now you are all done
 * To exit out ther terminal press Ctrl + D
 
