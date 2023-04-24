@@ -43,13 +43,16 @@ class Handler implements URLHandler {
 * With the given linked, type the link into a search browser
 * You will realize it will output "404 Not Found!"
 ![image](notfound.png)
-* This is because there is no message given in the link
+* This is because there is no message given in the link, so it returns "404 Not Found!"
 * To fix this add `/add-message?=<string>`
 * The string can be anything, for example `/add-message?=Hello`
 * Doing so, "Hello" should be the output when typing the new link
 ![image](hello.png)
+* The method `handleRequest` is called and passes the first two if statements, which returns the message "Hello"
 * Next replace "Hello" with "How are you"
 * Enter the new link and search
 * You will see "Hello" and "How are you" is printed on the same link
 * "How are you" printed under "Hello" due to `\n` creating a new line.
 ![image](how.png)
+* The method `handleRequest` is called again and passes the first two if statements
+* With being said, the `\n` was called resulting in the return of "How are you" in a new line.
