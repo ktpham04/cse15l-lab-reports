@@ -39,10 +39,9 @@
 * Open up the terminal 
 * Type in these commands
 * If typed in correctly, your terminal should look like this
-* ![image](commands.png)
+* ![image]()
 * You will notice that after using these last two commands
 * The system prints "Hello!"
-* ![image](cp.png)
 * Now you are all done
 * To exit out ther terminal press Ctrl + D
 
