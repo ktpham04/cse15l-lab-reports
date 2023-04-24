@@ -27,9 +27,9 @@
 ## Step 4: Trying Some Commands
 * Time to try some commands
 * List of commands
-* `cd ~`
+* `cd ~` Changes Directory to the given path
 * `cd`
-* `ls -lat`
+* `ls -lat`Shows the list of files/folders given
 * `ls -a`
 * Open up the terminal 
 * Type in these commands
