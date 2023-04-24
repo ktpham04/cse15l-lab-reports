@@ -39,7 +39,7 @@
 * Open up the terminal 
 * Type in these commands
 * If typed in correctly, your terminal should look like this
-* ![image]()
+* ![image](code.png)
 * You will notice that after using these last two commands
 * The system prints "Hello!"
 * Now you are all done
