@@ -35,7 +35,7 @@
 * `ls/home/linux/ieng6/cs15lsp23/cs15lsp23abc`
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
-* * Open up the terminal 
+* Open up the terminal 
 * Type in these commands
 * If typed in correctly, your terminal should look like this
 * ![image](commands.png)
