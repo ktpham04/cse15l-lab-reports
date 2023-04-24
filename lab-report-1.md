@@ -21,7 +21,8 @@
 * Type in `ssh` and your "csl5l" email with "@ieng6.ucsd.edu"
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
-* This should pop up below
+* ![image](code.png)
+* After this should pop up below
 * ![image](remote.png)
 * Your computer should now be connected
 ## Step 4: Trying Some Commands
