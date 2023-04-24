@@ -1,8 +1,9 @@
 # Lab Report 2 - Servers and Bugs
 ## Part 1 - Write a web server called StringServer
 * Code for StringServer
-import java.io.IOException;
-import java.net.URI;
+`import java.io.IOException;`
+`import java.net.URI;`
+
 class Handler implements URLHandler {
 
     String s;
