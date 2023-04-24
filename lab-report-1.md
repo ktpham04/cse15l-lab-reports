@@ -13,6 +13,7 @@
 * ![image](lookup.png)
 * Proceed to the Password Change Tool and input your cs15l username below.
 * ![image](passwordc.png)
+* Press "Continue"
 * Input your new password for your cs15l account. MAKE SURE YOU REMEMBER.
 * Now you should be all set to remotely connect.
 ## Step 3: Remote Connect
