@@ -42,6 +42,7 @@
 * If typed in correctly, your terminal should look like this
 * ![image](commands.png)
 * You will notice that after using these last three commands there is an error
+* These errors happen as there is no filed name hello.txt
 * Now you are all done
 * To exit out ther terminal press Ctrl + D
 
