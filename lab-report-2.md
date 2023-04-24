@@ -40,3 +40,16 @@ class Handler implements URLHandler {
 * `java StringServer 4000`
 * If typed in correctly, this should appear below
 ![image](java.png)
+* With the given linked, type the link into a search browser
+* You will realize it will output "404 Not Found!"
+![image](notfound.png)
+* This is because there is no message given in the link
+* To fix this add `/add-message?=<string>`
+* The string can be anything, for example `/add-message?=Hello`
+* Doing so, "Hello" should be the output when typing the new link
+![image](hello.png)
+* Next replace "Hello" with "How are you"
+* Enter the new link and search
+* You will see "Hello" and "How are you" is printed on the same link
+* "How are you" printed under "Hello" due to `\n` creating a new line.
+![image](how.png)
