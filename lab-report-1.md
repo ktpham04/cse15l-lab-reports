@@ -34,15 +34,15 @@
 * `cd`
 * `ls -lat`Shows the list of files/folders given
 * `ls -a`
-* `ls/home/linux/ieng6/cs15lsp23/cs15lsp23abc`
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 * Open up the terminal 
 * Type in these commands
 * If typed in correctly, your terminal should look like this
 * ![image](commands.png)
-* You will notice that after using these last three commands there is an error
-* These errors happen as there is no filed name hello.txt
+* You will notice that after using these last two commands
+* The system prints "Hello!"
+* ![image](
 * Now you are all done
 * To exit out ther terminal press Ctrl + D
 
