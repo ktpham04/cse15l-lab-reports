@@ -8,14 +8,17 @@
 * Go to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 * Input both your User and Student ID then click "Submit"
 * Then under "Additonal Accounts" you will find an account called "cs15l"
+* ![image](result.png)
 * Click on that account and press on "Global Password Change Tool" to reset password.
+* ![image](lookup.png)
 * Proceed to the Password Change Tool and input your cs15l username below.
+* ![image](passwordc.png)
 * Input your new password for your cs15l account. MAKE SURE YOU REMEMBER.
 * Now you should be all set to remotely connect.
 ## Step 3: Remote Connect
 * Open up VScode, then open the terminal
 * Press Ctrl + ~ to open terminal
-* Type in "ssh" and your "csl5l" email
+* Type in `ssh` and your "csl5l" email with "@ieng6.ucsd.edu"
 * Press enter, and a yes/no question will show. Click yes
 * Type in your password
 * This should pop up below
