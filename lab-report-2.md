@@ -39,4 +39,4 @@ class Handler implements URLHandler {
 * `javac Server.java StringServer.java`
 * `java StringServer 4000`
 * If typed in correctly, this should appear below
-![image]
+![image](java.png)
