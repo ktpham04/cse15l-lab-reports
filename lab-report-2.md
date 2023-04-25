@@ -39,8 +39,8 @@ class Handler implements URLHandler {
 * After the completion of your code, you now want to run it in the terminal
 * Open terminal on VScode with *Ctrl* + *~*  
 * In your terminal type in the folowing commands
-* `javac Server.java StringServer.java`
-* `java StringServer 4000`
+  * `javac Server.java StringServer.java`
+  * `java StringServer 4000`
 * If typed in correctly, this should appear below
 ![image](java.png)
 * With the given linked, type the link into a search browser
