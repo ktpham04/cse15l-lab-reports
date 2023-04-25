@@ -1,8 +1,10 @@
 # Lab Report 2 - Servers and Bugs
 ## Part 1 - Write a web server called StringServer
 * Code for StringServer
-* `import java.io.IOException;`
-* `import java.net.URI;`
+
+```
+import java.io.IOException;
+import java.net.URI;
 
 class Handler implements URLHandler {
 
@@ -33,6 +35,7 @@ class Handler implements URLHandler {
             Server.start(port, new Handler());
         }
     }
+ ```
 * After the completion of your code, you now want to run it in the terminal
 * Open terminal on VScode with *Ctrl* + *~*  
 * In your terminal type in the folowing commands
@@ -60,3 +63,39 @@ class Handler implements URLHandler {
 * You will see "%20" in between "How", "are", and "you" indicating the spaces
 
 ## Part 2 - Choosing a bug from Lab 3
+* A failure inducing bug
+```
+  public void testDupeAvg() {
+    double [] input1 = {2, 2, 2, 2, 2};
+    assertEquals(2, ArrayExamples.averageWithoutLowest(input1), 0.001);
+  }
+```
+* Input that does not induce a failure
+```
+public void testReversed2() {
+    int[] input1 = { 4, 3, 2, 1};
+    assertArrayEquals(new int[]{1, 2, 3, 4}, ArrayExamples.reversed(input1));
+  }
+  ```
+* Output of running test cases
+![image] 
+* Before code change
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```
+  * After code change
+  ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+  ```
