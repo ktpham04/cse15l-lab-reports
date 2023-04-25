@@ -47,20 +47,20 @@ class Handler implements URLHandler {
 * You will realize it will output "404 Not Found!"
 ![image](notfound.png)
 * This is because there is no message given in the link, so it returns "404 Not Found!"
-* To fix this add `/add-message?=<string>`
-* The string can be anything, for example `/add-message?=Hello`
-* Doing so, "Hello" should be the output when typing the new link
+  * To fix this add `/add-message?=<string>`
+  * The string can be anything, for example `/add-message?=Hello`
+  * Doing so, "Hello" should be the output when typing the new link
 ![image](hello.png)
 * The method `handleRequest` is called and passes the first two if statements, which returns the message "Hello"
 * Next replace "Hello" with "How are you"
-* Enter the new link and search
-* You will see "Hello" and "How are you" is printed on the same link
-* "How are you" printed under "Hello" due to `\n` creating a new line.
+  * Enter the new link and search
+  * You will see "Hello" and "How are you" is printed on the same link
+  * "How are you" printed under "Hello" due to `\n` creating a new line.
 ![image](how.png)
 * The method `handleRequest` is called again and passes the first two if statements
-* With being said, the `\n` was called resulting in the return of "How are you" in a new line.
-* Notice how the values changes in link when adding "How are you"
-* You will see "%20" in between "How", "are", and "you" indicating the spaces
+  * With being said, the `\n` was called resulting in the return of "How are you" in a new line.
+  * Notice how the values changes in link when adding "How are you"
+  * You will see "%20" in between "How", "are", and "you" indicating the spaces
 
 ## Part 2 - Choosing a bug from Lab 3
 * A failure inducing bug
@@ -100,9 +100,9 @@ static int[] reversed(int[] arr) {
   }
   ```
 * Description on why this fixes the issue
-* Notice we changed `arr[i]` to `newArray[i] = arr[arr.length - i -1]` in the for loop
-* This fixes it because newArray has no elements and arr will be filled up with empty elements.
-* The solution makes newArray be filled up with elements from arr from last to first.
+  * Notice we changed `arr[i]` to `newArray[i] = arr[arr.length - i -1]` in the for loop
+  * This fixes it because newArray has no elements and arr will be filled up with empty elements.
+  * The solution makes newArray be filled up with elements from arr from last to first.
 
 ## Part 3 - What I'ved learned/didn't know before
 * There were many things I have learnt during these three weeks. Going back to week 2, I did not know how to run or make a numberServer. But with the help of week 2, I was able to gain familiarity for our lab 2 report. I learnt how to make a StringSever that showcases messages on a website.
