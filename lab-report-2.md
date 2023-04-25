@@ -89,7 +89,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
   ```
-  * After code change
+* After code change
   ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -99,7 +99,10 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
-  * Description on why this fixes the issue
-  * Notice we changed `arr[i]` to `newArray[i] = arr[arr.length - i -1]` in the for loop
-  * This fixes it because newArray has no elements and arr will be filled up with empty elements.
-  * The solution makes newArray be filled up with elements from arr from last to first.
+* Description on why this fixes the issue
+* Notice we changed `arr[i]` to `newArray[i] = arr[arr.length - i -1]` in the for loop
+* This fixes it because newArray has no elements and arr will be filled up with empty elements.
+* The solution makes newArray be filled up with elements from arr from last to first.
+
+## Part 3 - What I'ved learned/didn't know before
+* There were many things I have learnt during these three weeks. Going back to week 2, I did not know how to run or make a numberServer. But with the help of week 2, I was able to gain familiarity for our lab 2 report. I learnt how to make a StringSever that showcases messages on a website.
