@@ -58,3 +58,5 @@ class Handler implements URLHandler {
 * With being said, the `\n` was called resulting in the return of "How are you" in a new line.
 * Notice how the values changes in link when adding "How are you"
 * You will see "%20" in between "How", "are", and "you" indicating the spaces
+
+## Part 2 - Choosing a bug from Lab 3
