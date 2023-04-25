@@ -78,7 +78,7 @@ public void testReversed2() {
   }
   ```
 * Output of running test cases
-![image] 
+![image](test.png)
 * Before code change
 ```
 static int[] reversed(int[] arr) {
@@ -99,3 +99,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
   ```
+  * Description on why this fixes the issue
+  * Notice we changed `arr[i]` to `newArray[i] = arr[arr.length - i -1]` in the for loop
+  * This fixes it because newArray has no elements and arr will be filled up with empty elements.
+  * The solution makes newArray be filled up with elements from arr from last to first.
