@@ -52,10 +52,17 @@ class Handler implements URLHandler {
   * Doing so, "Hello" should be the output when typing the new link
 ![image](hello.png)
 * The method `handleRequest` is called and passes the first two if statements, which returns the message "Hello"
+* The relevant argument to `handleReqest` is a URI objects, which contains a unique set of characters.
+* The three relevant fields are `String s`, `String [] parameters`, and `String kp`.
+* In running the code, if the URL path contains `/add-message` the parameter array spilts the query string with `"="`.
+* If `s` is not null, the variable `kp` is assigned the concatenated value of `s` and `parameters[1]` as it is the second element.
+* The value of `s` is now updated to `parameters[1]`, then returns the new value of `kp` or `s`.
+* However, if the URL path does not contain `/add-message` then it returns "404 Not Found!".
 * Next replace "Hello" with "How are you"
   * Enter the new link and search
   * You will see "Hello" and "How are you" is printed on the same link
   * "How are you" printed under "Hello" due to `\n` creating a new line.
+  * In adding the string "How are you", the value of `s` is updated to `paramters[1]`, and returns the new value of `s` or `kp`.
 ![image](how.png)
 * The method `handleRequest` is called again and passes the first two if statements
   * With being said, the `\n` was called resulting in the return of "How are you" in a new line.
