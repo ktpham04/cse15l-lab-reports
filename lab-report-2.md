@@ -72,9 +72,9 @@ class Handler implements URLHandler {
 ## Part 2 - Choosing a bug from Lab 3
 * A failure inducing bug
 ```
-  public void testDupeAvg() {
-    double [] input1 = {2, 2, 2, 2, 2};
-    assertEquals(2, ArrayExamples.averageWithoutLowest(input1), 0.001);
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{1,2,3 }, ArrayExamples.reversed(input1));
   }
 ```
 * Input that does not induce a failure
@@ -85,7 +85,7 @@ public void testReversed2() {
   }
   ```
 * Output of running test cases
-![image](test.png)
+![image]
 * Before code change
 ```
 static int[] reversed(int[] arr) {
